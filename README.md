@@ -1,6 +1,6 @@
 # Bento4 
 
-![example workflow name](https://github.com/actions/hello-world/workflows/Greet%20Everyone/badge.svg)
+![Build](https://github.com/<OWNER>/<REPOSITORY>/workflows/Build/badge.svg)
 
 Bento4 is a media packager to produce DASH and HLS streaming formats.  This is to build a bento4 container by compiling it from Source.  
 
