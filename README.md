@@ -18,3 +18,5 @@ You can manually build a specific version
 ```bash
 docker build --build-arg BENTO4_VERSION=$BENTO4_VERSION  .
 ```
+
+## How to use
