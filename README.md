@@ -1,6 +1,6 @@
 # Bento4 
 
-![Build](https://github.com/<OWNER>/<REPOSITORY>/workflows/Build/badge.svg)
+![Build](https://github.com/gopiio/bento4-docker/workflows/Build/badge.svg)
 
 Bento4 is a media packager to produce DASH and HLS streaming formats.  This is to build a bento4 container by compiling it from Source.  
 
