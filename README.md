@@ -1,5 +1,7 @@
 # Bento4 
 
+![example workflow name](https://github.com/actions/hello-world/workflows/Greet%20Everyone/badge.svg)
+
 Bento4 is a media packager to produce DASH and HLS streaming formats.  This is to build a bento4 container by compiling it from Source.  
 
 Project uses https://github.com/axiomatic-systems/Bento4.  Dockerfile is inspired by the source

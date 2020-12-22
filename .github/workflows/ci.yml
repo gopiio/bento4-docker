@@ -9,6 +9,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - name: build docker image
+      - name: Checkout code 
+        uses: actions/checkout@v2
+
+      - name: Build docker image
         run: chmod +x build.sh && ./build.sh
+      
+      - name: Login to DockerHub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKER_HUB_USERNAME }}
+          password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
