@@ -25,9 +25,9 @@ jobs:
         run: docker push gopiio/bento4
       
       - name: Add DockerHub README.md
-        uses: ms-jpq/sync-dockerhub-readme@v1
+        uses: peter-evans/dockerhub-description@v2
         with:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
           repository: gopiio/bento4
-          readme: "./README.md"
+          readme-filepath: ./README.md
