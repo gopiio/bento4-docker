@@ -25,6 +25,8 @@ docker build --build-arg BENTO4_VERSION=$BENTO4_VERSION  .
 
 You can follow the Bento4 document here: https://www.bento4.com/documentation/
 
+An example command below
+
 ```bash
 docker run -it --rm gopiio/bento4:latest mp4fragment
 MP4 Fragmenter - Version 1.6.1
